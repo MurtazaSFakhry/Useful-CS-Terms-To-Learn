@@ -1,0 +1,20 @@
+CS Terms,Meaning
+CPU,"Cental Processing Unit"" Calculates and interprets instructions given by user, its like a brain of the computer."
+Binary,A system for counting that has a possible state of 0 Or 1. 
+Statically Typed Languages,Dynamically and Statically Typed are two types of programming languages.  Statically typed languages do require you to specify exactly what data type your variable is. 
+Pointer,"In computer science, a pointer is an object in many programming languages that stores a memory address."
+Floating Point,Float is a data type used when a # require a decimal point.
+Stack,"A type of Data Structure that follows the last in First Out principle. Ex. Stacking a set of plates, and when you want to have access to the data, you pop the last one off the top. "
+Boolean,Boolean is a data type that has a value that is either true or false. 
+Conditional Logic,A programming command that handles decisions. -- The if and else statements handles the conditional logic. 
+While Loop,Loops are an order of continuation of instructions that is repeated until a certain condition is hit. While loops just loop until the condition becomes false. 
+Big-O-Notation,A standard format for approximating the performance of an algorithm at scale
+Space Complexity,How much memory is required to run it. 
+Divide and Conquer,Another type of Algorithm. Divide: dividing the problem into small sub-problems. Conquer: Solve sub-problems by calling recursively until solved. Combine: Combine the sub-problems to get the final problem of the whole problem
+Object-oriented,Languages that use objects in programming
+Inheritance,Inheritance is the capability of one class to derive or inherit the properties from another class.
+Threads,"Threads are the virtual component or codes, which divides the physical core of a CPU into virtual multiple cores. -- Allows the code to run simulteneosly"
+Parallelism,Some Programming languages support Parallelism where you write code that executes on 2 different threads at the same time. 
+Bare Metal ,"Bare metal in computing refers to running software directly on the hardware without any intervening software layers. For example, Windows programs only running on Windows. "
+Virtual Machine,"A virtual machine is an emulated computer system that runs on top of a physical computer, allowing multiple operating systems to run on a single machine. For example, Windows operating system running on Mac OS."
+URL,Uniformed Resource Locator is basically the address of a resource (document or website) on the internet. 

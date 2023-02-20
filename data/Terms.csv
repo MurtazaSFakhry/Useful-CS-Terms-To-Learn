@@ -1,0 +1,81 @@
+CS Terms,Meaning
+Turing Machine,A mathematical model that performs computation by reading and writing to an infinite tape determines a result from a set of input variables. Made by Alan Turing (encoded 'enigma')
+CPU,"Cental Processing Unit"" Calculates and interprets instructions given by user, its like a brain of the computer."
+Transistors,"Transistors are binary switches and the primary building blocks of all microchips. They Act as a switch (1,0) and also as an amplifier (controls the strength of the electrical current in electric circuits.)"
+Bit,"The smalled piece of information a computer can use. The ""Bit"" is binary digits, either 1 or 0 and is one of the value of the transistor. (1) means on while (0) means off. "
+Byte,"A package of 8 ""Bit"" is called a ""Byte"". It is a unit of data that is eight binary digits long. Ex. 10110010"
+Ascii Character encoding,"American Standard Code for info Interchange: uses Bytes for character encoding format for text data in the computer. The ASCII can be numbers, alphabets, or special addition char. "
+Binary,A system for counting that has a possible state of 0 Or 1. 
+Hexadecimal,"Its hard for humans to read Binary, and often, it is represented in a hexadecimal base 16 formal. 10 numbers (0-9) and 6 letters (A-F). "
+Nibble,Four consecutive binary digits or often called half-byte. 
+Machine Code,A low-level programming language consisting of binary digits/bits that the computer reads and understands. The code we write in Python for example gets converted to machine code so that it can be decoded and executed by the CPU. 
+RAM,Random Access Memory: RAM is the temporary storage (short-term) component of the computer. RAM is one of the most important component that determines your system's performance. RAM holds all the data a computer uses. 
+Memory Address,A unique identifier used by a device or CPU for data tracking.
+I/O,The communication between the information processing system (computer) and the outside world (humans). Inputs are the signals received by the system (keyboard) and outputs are what the computer produces or displays: the result (monitors)
+Kernel,The kernel is the interface between the software and the hardware. The kernel is the heart of the operating system and controls all the important functions of the CPU and hardware. 
+Shell,"A software that allows users access to the kernel's services. - In case of hacking, the shell exposes the operating system to the end user. "
+Command Line Interface,An interface that takes input as command lines and give the shell's output on the screen
+Secure Shell Protocol,A method for secure remote login from one computer to another. - Notable applications are: Remote Login & Command line execution
+Mainframe,High-performance computers with large amounts of memory & performance. -- Used in commercial databases & transaction servers (that require high security and agility)
+Programming Language,"A computer language used by programmers (developers) to communicated with computers. Ex. C, C++, Java, Python"
+Abstraction Principle,A fundamental principle in CS that aims to reduce duplication of info in a program by using 'abstractions' provided by the programming language. - Avoids duplication of info and human effort involved in the software development process. 
+Interpreted Languages,"A different program, aka the interpreter, reads and executes the code. Ex. Compiled is like having a Spanish friend translate Spanish text for you and interpreting is like having an American friend who knows Spanish and then translate for you."
+Compiled Languages,"In a compiled language, the target machine directly translates the program. The source code is not directly translated by the target machine in an interpreted language."
+Executable,A type of computer file that contains instructions that the system executes directly. -- Executable files commonly have EXE file extension
+Data Types,"Every Prog. Lang. has a variety of built-in data types to represent the data we are working with in our code. Ex. Integers, string, list."
+Variable,"Variables are used to attack a name to a data point (int, str, float) - It allows to reuse it somewhere else in your code. -- Declaring a variable is the most fundamental way to use data in your application"
+Dynamically Typed Languages,"Dynamically and Statically Typed are two types of programming languages. In dynamically typed languages, it is not needed to tell the program exactly which data type is assigned to a variable."
+Statically Typed Languages,Dynamically and Statically Typed are two types of programming languages.  Statically typed languages do require you to specify exactly what data type your variable is. 
+Pointer,"In computer science, a pointer is an object in many programming languages that stores a memory address."
+Garbage Collection,A feature and form of automatic memory management. -- Automatically allocates and deallocates memory when an object is no longer referenced.
+INT,INT data type typically represents whole numbers. It stands for integers. -- can be negative #'s
+Floating Point,Float is a data type used when a # require a decimal point.
+Double-precision floating point,64 bits are used to represent floating-point numbers. -- Its used for scientific calculator where precision is very important. 
+Char,Char data type represents a single character.
+String,String represents multiple characters
+Big & Little Endian,"Big and Little Endian are 2 ways of storing data types (int, float, etc). In Big Endians, the values end with large values while in Little Endian, the values end with small values."
+Data Structures,A particular way of organizing data in a computer so that it can be used effectively. 
+Array Or list,"A list organizes multiple data points in order, just like a shopping list. -- Also maintains an index of integers that starts with 0 and goes up as # of items goes up. "
+Linked List,Linked list is where each item has a pointer to the next item in from of it. Ex. Used in treasure hunt game. 
+Stack,"A type of Data Structure that follows the last in First Out principle. Ex. Stacking a set of plates, and when you want to have access to the data, you pop the last one off the top. "
+Queue,"The inverse of the stack, the Queue follows First in Last Out. Ex. Waiting in a line: the first person in the line goes first. "
+Hash,"Like an array but instead of index of integers, you define a key that points to each individual item. -- Like a dictionary."
+Tree,A tree is a non-linear and hierarchical data structure that consists of a collection of notes. Each node stores a value and a list of references to the other nodes ('the children')
+Graph,Graph is a collection of nodes that have data and are connected to the other nodes.
+Algorithm,A code that solves a problem. -- Set of instructions that get the job done. 
+Function,"A block of code that takes an input - process - and then returns an output. -- function has a name and can be called from other parts of code. Ex. def add (a,b)  -- ""add"" is the function."
+Operators,"Symbol (s) in programming languages that tells compiler/interpreter to perform certain mathematical or logical operations. Ex. ""="" "">"""
+Boolean,Boolean is a data type that has a value that is either true or false. 
+Expression,A code that produces a value is called an expression. 
+Statement,Code that does something or is used to form a sequence of a program. Ex. If and Else...
+Conditional Logic,A programming command that handles decisions. -- The if and else statements handles the conditional logic. 
+For Loop ,"Loops are an order of continuation of instructions that is repeated until a certain condition is hit. For loops is one type of a loop that loops through each item in a list, tuple, etc., and the # of loops is defined. "
+While Loop,Loops are an order of continuation of instructions that is repeated until a certain condition is hit. While loops just loop until the condition becomes false. 
+Void,"When a function doesn't have an output, its called a void function (no return value)"
+Recursion,When a function calls itself. It calls itself over and over until an exit condition is reached. 
+Call Stack,"When calling a function, prog. languages will put it in short-term memory. -- short-term chunk of memory for executing your code."
+StackOverflow,Happens when the call stack pointer exceeds the stack bound.
+Big-O-Notation,A standard format for approximating the performance of an algorithm at scale
+Time Complexity,How fast the program will run
+Space Complexity,How much memory is required to run it. 
+Brute Force,A most basic and simple type of Algorithm. Loops over every possible combination until the solution is found
+Divide and Conquer,Another type of Algorithm. Divide: dividing the problem into small sub-problems. Conquer: Solve sub-problems by calling recursively until solved. Combine: Combine the sub-problems to get the final problem of the whole problem
+Dynamic Programming Algorithms,A problem is broken down into multiple smaller sub-problems that the result of each computation is stored for later use. 
+Memoization,A technique that will use the existing value instead of recomputing it from scratch. 
+Greedy Algorithm ,A type of Algorithm that works step-by-step and always chooses the steps which provide immediate profit. 
+Imperative programming,A software development paradigm where functions are implicitly coded in every step required to solve a problem. Its associated with procedural languages like C.
+Programming Paradigms,A way to classify programming languages based on their features
+Object-oriented,Languages that use objects in programming
+Class ,A class is a user-defined blueprint or prototype from which objects are created.
+Method,A Python method is a label that you can call on an object; it is a piece of code to execute on that object
+Inheritance,Inheritance is the capability of one class to derive or inherit the properties from another class.
+Threads,"Threads are the virtual component or codes, which divides the physical core of a CPU into virtual multiple cores. -- Allows the code to run simulteneosly"
+Parallelism,Some Programming languages support Parallelism where you write code that executes on 2 different threads at the same time. 
+Bare Metal ,"Bare metal in computing refers to running software directly on the hardware without any intervening software layers. For example, Windows programs only running on Windows. "
+Virtual Machine,"A virtual machine is an emulated computer system that runs on top of a physical computer, allowing multiple operating systems to run on a single machine. For example, Windows operating system running on Mac OS."
+Ip-address,Each virtual machine has a unique IP address to identify it on a network. (Internet Protocol Address). It is a label that is connected to a computer network that uses Internet Protocol for communication.
+URL,Uniformed Resource Locator is basically the address of a resource (document or website) on the internet. 
+Transmission Control Protocol,Allows computers to exchange messages called packets
+Packets,"Network packets, or just packets, are small units of data transported over a network."
+HTTP,Hyper-text Transfer Protocol: HTTP is an application-layer protocol for transmitting hypermedia documents such as HTML.
+Application Programming Interface (API),Software interface that allows two applications to interact with each other. 
